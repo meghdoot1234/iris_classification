@@ -17,12 +17,12 @@ with col1:
     g = float(0.1)
     h = float(2.5)
     st.text("Sepal characteristics")
-    sepal_l = st.slider("Sepal lenght (cm)", a, b, c)
-    sepal_w = st.slider("Sepal width (cm)", d, e, c)
+    sepal_l = st.slider("Sepal lenght (cm)", 1, 8)
+    sepal_w = st.slider("Sepal width (cm)", 2, 5)
 with col2:
     st.text("Pepal characteristics")
-    petal_l = st.slider("Petal lenght (cm)", a, f, c)
-    petal_w = st.slider("Petal width (cm)", g, h, c)
+    petal_l = st.slider("Petal lenght (cm)", 1, 7)
+    petal_w = st.slider("Petal width (cm)", 1, 3)
 
 st.text('')
 if st.button("Predict type of Iris"):
