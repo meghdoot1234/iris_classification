@@ -8,14 +8,7 @@ st.markdown("Toy model to play to classify iris flowers into setosa, versicolor,
 st.header("Plant Features")
 col1, col2 = st.columns(2)
 with col1:
-    a = float(1.0)
-    b = float(8.0)
-    c = float(0.5)
-    d = float(2.0)
-    e = float(4.4)
-    f = float(7.0)
-    g = float(0.1)
-    h = float(2.5)
+    
     st.text("Sepal characteristics")
     sepal_l = st.slider("Sepal lenght (cm)", 1, 8)
     sepal_w = st.slider("Sepal width (cm)", 2, 5)
